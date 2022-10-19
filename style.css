@@ -7,36 +7,53 @@ html,body{
     overflow: hidden;
     font-family: monoserrat;
 }
+p{
+    margin-left: 40px;
+    
+}
 .center{
 
-    width:420px;
-    height: 300px;
-    border: 1px solid red;
-    margin:auto;
-    margin-top: 30px;
+    width:350px;
+    height: 400px;
+    box-shadow: 2px 2px 2px 2px gray  ;
+    border: 1px solid rgb(179, 168, 168); 
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 150px;
     
 }
 h1{
     /* color: #ddd; */
-    margin-left: 150px;
+    margin-left: 110px;
 }
-label{
-    margin-left: 60px;
+#label1{
+    margin-left: 30px;
+    
+}
+#label2{
+    margin-left: 30px;
+    margin-top: 10px;
     
 }
 input{
-    width:250px;
+    width:280px;
     height: 40px;
     margin-top: 10px;
-    margin-left: 60px;
+    margin-left: 30px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
     
+}
+#fullname{
+    margin-bottom: 10px;
 }
 .button button{
     height: 30px;
-    width: 250px;
-    background-color:rgb(46, 39, 148);
+    width: 280px;
+    background-color:rgb(47, 142, 226);
     border: none;
     color: #fff;
     margin-top: 20px;
-    margin-left: 60px;
+    margin-left: 30px;
+    border-radius: 5px;
 }
