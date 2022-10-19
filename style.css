@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: monoserrat;
+}
+.center{
+
+    width:420px;
+    height: 300px;
+    border: 1px solid red;
+    margin:auto;
+    margin-top: 30px;
+    
+}
+h1{
+    /* color: #ddd; */
+    margin-left: 150px;
+}
+label{
+    margin-left: 60px;
+    
+}
+input{
+    width:250px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 60px;
+    
+}
+.button button{
+    height: 30px;
+    width: 250px;
+    background-color:rgb(46, 39, 148);
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 60px;
+}
